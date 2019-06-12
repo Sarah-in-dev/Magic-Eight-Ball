@@ -1,0 +1,36 @@
+userName = 'Sarah'
+userName ? console.log(`Hello, ${userName}`): console.log("Hello!");
+const userQuestion = 'Will I succeed in business?';
+console.log(`The user asked: ${userQuestion}`);
+randomNumber = Math.floor(Math.random() * 8);
+eightBall = '';
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'The future is uncertain';
+    break;
+  case 2:
+    eightBall = 'Signs point to yes';
+    break;
+  case 3:
+    eightBall = 'Outlook not so good';
+    break;
+  case 4:
+    eightBall = 'My sources say no';
+    break; 
+  case 5:
+    eightBall = 'Do not count on it';
+    break; 
+  case 6:
+    eightBall = 'It is decidely so';
+    break; 
+  case 7:
+    eightBall = 'Just keep on this path';
+    break;
+  case 8:
+    eightBall = 'You will achieve everything you hope';
+    break;
+}
+console.log(`The eight ball answered: ${eightBall}`);
